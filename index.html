@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    
+    @keyframes example {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      100% {background-color: green;}
+    }
+ 
+    
+    div {
+      width: 100px;
+      height: 100px;
+      animation-name: example;
+      animation-duration: 15s;
+    }
+
+    @keyframes moveBox {
+      0%   {transform: translateX(0px);}
+      50%  {transform: translateX(1500px);}
+      100% {transform: translateX(0px);}
+    }
+ 
+    
+    #box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      animation-name: moveBox;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+
+    
+  </style>
+</head>
+<body>
+ 
+  <div id="box"></div>
+  </style>
+</head>
+<body>
+ 
+  <div></div>
+ 
+</body>
+</html>
